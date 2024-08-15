@@ -1,0 +1,24 @@
+/* Navbar.css */
+.navbar {
+    background-color: #000; /* Set background color to black */
+  }
+  
+  .logo {
+    height: 50px; /* Adjust logo size */
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  .order-now-button {
+    background-color: #99de37; /* Neon green background */
+    color: #4a148c; /* Purple text */
+  }
+  
+  .pickup-delivery-toggle {
+    background-color: #4a148c; /* Purple background */
+    color: #fff; /* White text */
+    margin-right: 10px;
+  }
+  

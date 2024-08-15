@@ -1,0 +1,69 @@
+/* About Page Styles */
+.about-container {
+    padding: 20px;
+}
+
+.about-header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 200px;
+}
+
+.about-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.social-icons a {
+    color: #ff3366; /* Red color for the social icons */
+    margin-left: 15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+/* Text Sections on the Left */
+.text-sections {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.mission-section, .manifesto-section {
+    padding: 20px 0;
+}
+
+.mission-section h2, .manifesto-section h2 {
+    color: #e60023; /* Red color for the section headers */
+    font-size: 1.75rem;
+}
+
+.mission-section p, .manifesto-section p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Images Section on the Right */
+.images-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
